@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/clone_MovieWep_project/static/js/main.530079ef.js",
+    "main.js": "/clone_MovieWep_project/static/js/main.d2177470.js",
     "index.html": "/clone_MovieWep_project/index.html",
-    "main.530079ef.js.map": "/clone_MovieWep_project/static/js/main.530079ef.js.map"
+    "main.d2177470.js.map": "/clone_MovieWep_project/static/js/main.d2177470.js.map"
   },
   "entrypoints": [
-    "static/js/main.530079ef.js"
+    "static/js/main.d2177470.js"
   ]
 }
