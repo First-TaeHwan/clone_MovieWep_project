@@ -1,0 +1,44 @@
+.item {
+  border-radius: 30px;
+  background-color: white;
+  min-width: 20%;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.29);
+}
+.item .img {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.36);
+}
+.item .text {
+  overflow: hidden;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.item .text .title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.item .text .title a {
+  text-decoration: none;
+  color: #665454;
+}
+.item .text .genres {
+  display: flex;
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-weight: 650;
+}
+.item .text .genres li {
+  margin-right: 10px;
+}
+.item .text p {
+  font-size: 20px;
+}
