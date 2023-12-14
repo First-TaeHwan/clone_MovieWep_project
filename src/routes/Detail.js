@@ -17,18 +17,24 @@ function Detail() {
     getMovie();
   }, []);
   return (
-    <div>
-      <h2 className={style.home}>
+    <div className={style.main}>
+      <h2 className={style.homeBtn}>
         <Link to={`/`}>Main</Link>
       </h2>
       {loading ? (
         <h1 className={style.loading}>로딩중...</h1>
       ) : (
-        <div className={style.main}>
+        <div className={style.item}>
           <img src={movieInfo.large_cover_image} />
           <div>
-            {movieInfo.title} ({movieInfo.year}) / {movieInfo.genres} / ⭐️
-            {movieInfo.rating}
+            <div>
+              <h1>
+                {movieInfo.title} ({movieInfo.year})
+              </h1>
+              <h2>
+                {movieInfo.genres} / ⭐️{movieInfo.rating}
+              </h2>
+            </div>
             <p>{movieInfo.description_full}</p>
           </div>
         </div>

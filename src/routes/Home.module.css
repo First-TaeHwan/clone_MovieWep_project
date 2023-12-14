@@ -5,8 +5,8 @@
 }
 
 .main {
-  border-radius: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 2200px;
   background-color: #d9d9d9;
 }
