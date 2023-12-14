@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/clone_MovieWep_project/static/css/main.68f0655e.css",
-    "main.js": "/clone_MovieWep_project/static/js/main.6c255836.js",
+    "main.css": "/clone_MovieWep_project/static/css/main.fa70b852.css",
+    "main.js": "/clone_MovieWep_project/static/js/main.9a22525b.js",
     "index.html": "/clone_MovieWep_project/index.html",
-    "main.68f0655e.css.map": "/clone_MovieWep_project/static/css/main.68f0655e.css.map",
-    "main.6c255836.js.map": "/clone_MovieWep_project/static/js/main.6c255836.js.map"
+    "main.fa70b852.css.map": "/clone_MovieWep_project/static/css/main.fa70b852.css.map",
+    "main.9a22525b.js.map": "/clone_MovieWep_project/static/js/main.9a22525b.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f0655e.css",
-    "static/js/main.6c255836.js"
+    "static/css/main.fa70b852.css",
+    "static/js/main.9a22525b.js"
   ]
 }
