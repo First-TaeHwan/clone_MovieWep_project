@@ -1,0 +1,45 @@
+.item {
+  border-radius: 30px;
+  background-color: white;
+  min-width: 20%;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.29);
+
+  .img {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.36);
+  }
+  .text {
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    .title {
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      a {
+        text-decoration: none;
+        color: rgb(102, 84, 84);
+      }
+    }
+    .genres {
+      display: flex;
+      margin-bottom: 35px;
+      font-size: 18px;
+      font-weight: 650;
+      li {
+        margin-right: 10px;
+      }
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import style from "./Detail.module.scss";
 
 function Detail() {
   const { id } = useParams();
@@ -17,19 +18,19 @@ function Detail() {
   }, []);
   return (
     <div>
+      <h2 className={style.home}>
+        <Link to={`/`}>Main</Link>
+      </h2>
       {loading ? (
-        <h1>로딩중...</h1>
+        <h1 className={style.loading}>로딩중...</h1>
       ) : (
-        <div>
-          <h2>
-            <Link to={`/`}>Main</Link>
-          </h2>
+        <div className={style.main}>
           <img src={movieInfo.large_cover_image} />
-          <h2>
-            {movieInfo.title} / {movieInfo.year} / {movieInfo.genres} / ⭐️
+          <div>
+            {movieInfo.title} ({movieInfo.year}) / {movieInfo.genres} / ⭐️
             {movieInfo.rating}
-          </h2>
-          <p>{movieInfo.description_full}</p>
+            <p>{movieInfo.description_full}</p>
+          </div>
         </div>
       )}
     </div>
